@@ -24,6 +24,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/GamerNoTitle/biliJudgeReforged.git"
-          source_branch: "main"
-          destination_branch: "master"
+          source_branch: "master"
+          destination_branch: "main"
           github_token: ${{ secrets.PAT || github.event.client_payload.PAT }}
